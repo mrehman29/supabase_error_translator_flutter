@@ -421,7 +421,3 @@ This is an independent project and is **NOT officially associated** with Supabas
 **Made with ❤️ for the Flutter community**
 
 *Give us a ⭐ if this package helped you build better apps!*
-=======
-# supabase_error_translator_flutter
-Translate Supabase error codes into user-friendly messages
->>>>>>> a9c98b20e4f5802d741c1f1fd5e8645656686d4d

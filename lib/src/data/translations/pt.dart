@@ -122,7 +122,6 @@ const Map<String, dynamic> portugueseTranslations = {
       'function_not_found': 'Função não encontrada',
     },
     'storage': {
-      // Existing error codes
       'bucket_not_found': 'Bucket não encontrado',
       'file_not_found': 'Arquivo não encontrado',
       'bucket_already_exists': 'Bucket já existe',
@@ -142,8 +141,6 @@ const Map<String, dynamic> portugueseTranslations = {
       'file_corrupted': 'Arquivo corrompido',
       'network_error': 'Erro de rede ocorrido',
       'service_unavailable': 'Serviço de armazenamento indisponível',
-
-      // Additional official Supabase Storage error codes
       'NoSuchBucket': 'O bucket especificado não existe',
       'NoSuchKey': 'A chave especificada não existe',
       'NoSuchUpload': 'O upload especificado não existe',
@@ -176,17 +173,15 @@ const Map<String, dynamic> portugueseTranslations = {
       'InvalidChecksum': 'O checksum da entidade não corresponde',
       'MissingPart': 'Uma parte da entidade está ausente',
       'SlowDown': 'A taxa de solicitação é muito alta e foi limitada',
-
-      // Legacy error codes
       'not_found': 'Recurso não encontrado ou você não tem permissão correta',
       'already_exists': 'Recurso já existe',
       'unauthorized': 'Você não tem permissão para executar esta solicitação',
       'too_many_requests': 'Muitas solicitações',
       'database_timeout': 'Timeout do banco de dados',
       'internal_server_error': 'Erro interno do servidor',
+      '413': 'Tamanho do arquivo excede o limite',
     },
     'realtime': {
-      // Existing error codes
       'connection_failed': 'Conexão em tempo real falhou',
       'channel_not_found': 'Canal não encontrado',
       'subscription_failed': 'Assinatura falhou',
@@ -206,8 +201,6 @@ const Map<String, dynamic> portugueseTranslations = {
       'node_disconnected': 'Nó desconectado',
       'migration_failed': 'Migração falhou',
       'counter_tracking_error': 'Erro de rastreamento de contador',
-
-      // Additional official Supabase Realtime error codes
       'ChannelRateLimitReached': 'O número de canais que você pode criar atingiu seu limite',
       'ClientJoinRateLimitReached': 'A taxa de junções por segundo de seus clientes atingiu os limites do canal',
       'ConnectionInitializing': 'Banco de dados está inicializando conexão',

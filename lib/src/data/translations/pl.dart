@@ -179,9 +179,9 @@ const Map<String, dynamic> polishTranslations = {
       'too_many_requests': 'Za dużo żądań',
       'database_timeout': 'Przekroczono limit czasu bazy danych',
       'internal_server_error': 'Błąd wewnętrzny serwera',
+      '413': 'Rozmiar pliku przekracza limit',
     },
     'realtime': {
-      // Existing error codes
       'connection_failed': 'Połączenie w czasie rzeczywistym nie powiodło się',
       'channel_not_found': 'Kanał nie został znaleziony',
       'subscription_failed': 'Subskrypcja nie powiodła się',
@@ -201,8 +201,6 @@ const Map<String, dynamic> polishTranslations = {
       'node_disconnected': 'Węzeł został rozłączony',
       'migration_failed': 'Migracja nie powiodła się',
       'counter_tracking_error': 'Błąd śledzenia licznika',
-
-      // Additional official Supabase Realtime error codes
       'ChannelRateLimitReached': 'Liczba kanałów, które możesz utworzyć, osiągnęła limit',
       'ClientJoinRateLimitReached': 'Częstotliwość dołączeń na sekundę z twoich klientów osiągnęła limit kanału',
       'ConnectionInitializing': 'Baza danych inicjalizuje połączenie',

@@ -179,9 +179,9 @@ const Map<String, dynamic> englishTranslations = {
       'too_many_requests': 'Too many requests',
       'database_timeout': 'Database timeout',
       'internal_server_error': 'Internal server error',
+      '413': 'File size exceeds the limit',
     },
     'realtime': {
-      // Existing error codes
       'connection_failed': 'Realtime connection failed',
       'channel_not_found': 'Channel not found',
       'subscription_failed': 'Subscription failed',
@@ -201,8 +201,6 @@ const Map<String, dynamic> englishTranslations = {
       'node_disconnected': 'Node disconnected',
       'migration_failed': 'Migration failed',
       'counter_tracking_error': 'Counter tracking error',
-
-      // Additional official Supabase Realtime error codes
       'ChannelRateLimitReached': 'The number of channels you can create has reached its limit',
       'ClientJoinRateLimitReached': 'The rate of joins per second from your clients has reached the channel limits',
       'ConnectionInitializing': 'Database is initializing connection',

@@ -5,6 +5,53 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-07-15
+
+### Added
+- 🚀 **New Storage Error Code**: Added support for HTTP 413 "File size exceeds the limit" error
+  - Added `'413'` error code to all storage service translations
+  - Complete translations available in all 9 supported languages
+  - Provides user-friendly messages for file size limit exceeded errors
+
+### Changed
+- 📝 **Documentation Updates**: Updated funding information in package metadata
+- 🔧 **Maintenance**: Cleaned up dependency management and build configuration
+
+### Technical Details
+- **Error Code Coverage**: Now includes HTTP status code errors for better Supabase integration
+- **Translation Consistency**: All language files updated with the new error code
+- **Zero Breaking Changes**: Fully backward compatible with existing implementations
+
+### Supported Languages for New Error Code
+- 🇺🇸 English: "File size exceeds the limit"
+- 🇪🇸 Spanish: "El tamaño del archivo excede el límite"
+- 🇫🇷 French: "La taille du fichier dépasse la limite"
+- 🇩🇪 German: "Dateigröße überschreitet das Limit"
+- 🇵🇹 Portuguese: "Tamanho do arquivo excede o limite"
+- 🇵🇱 Polish: "Rozmiar pliku przekracza limit"
+- 🇰🇷 Korean: "파일 크기가 제한을 초과합니다"
+- 🇯🇵 Japanese: "ファイルサイズが制限を超えています"
+- 🇨🇳 Chinese: "文件大小超过限制"
+
+### Migration Guide
+No migration required - this is a minor update that adds new functionality without breaking existing code.
+
+## [1.0.1] - 2025-07-15
+
+### Changed
+- 📦 **Dependencies**: Simplified dependency management
+  - Removed `flutter_localizations` dependency for lighter package footprint
+  - Updated `intl` dependency to use flexible version constraint (`any`)
+- 🔧 **Configuration**: Streamlined package configuration for better compatibility
+
+### Technical Details
+- **Package Size**: Reduced package size by removing unnecessary dependencies
+- **Compatibility**: Improved compatibility with different Flutter versions
+- **Zero Breaking Changes**: Maintains full backward compatibility
+
+### Migration Guide
+No migration required - this is a maintenance update that improves package efficiency.
+
 ## [1.0.0] - 2025-01-15
 
 ### Added

@@ -179,6 +179,7 @@ const Map<String, dynamic> germanTranslations = {
       'too_many_requests': 'Zu viele Anfragen',
       'database_timeout': 'Datenbank-Timeout',
       'internal_server_error': 'Interner Serverfehler',
+      '413': 'Dateigröße überschreitet das Limit',
     },
     'realtime': {
       // Existing error codes

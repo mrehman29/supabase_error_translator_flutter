@@ -179,6 +179,7 @@ const Map<String, dynamic> koreanTranslations = {
       'too_many_requests': '요청이 너무 많습니다',
       'database_timeout': '데이터베이스 타임아웃',
       'internal_server_error': '내부 서버 오류',
+      '413': '파일 크기가 제한을 초과합니다',
     },
     'realtime': {
       'connection_failed': '실시간 연결에 실패했습니다',

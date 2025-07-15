@@ -141,8 +141,6 @@ const Map<String, dynamic> japaneseTranslations = {
       'file_corrupted': 'ファイルが破損しています',
       'network_error': 'ネットワークエラーが発生しました',
       'service_unavailable': 'ストレージサービスが利用できません',
-
-      // Additional official Supabase Storage error codes
       'NoSuchBucket': '指定されたバケットが存在しません',
       'NoSuchKey': '指定されたキーが存在しません',
       'NoSuchUpload': '指定されたアップロードが存在しません',
@@ -175,17 +173,15 @@ const Map<String, dynamic> japaneseTranslations = {
       'InvalidChecksum': 'エンティティのチェックサムが一致しません',
       'MissingPart': 'エンティティの一部が不足しています',
       'SlowDown': 'リクエストレートが高すぎて制限されました',
-
-      // Legacy error codes
       'not_found': 'リソースが見つからないか、適切な権限がありません',
       'already_exists': 'リソースが既に存在します',
       'unauthorized': 'このリクエストを実行する権限がありません',
       'too_many_requests': 'リクエストが多すぎます',
       'database_timeout': 'データベースタイムアウト',
       'internal_server_error': '内部サーバーエラー',
+      '413': 'ファイルサイズが制限を超えています',
     },
     'realtime': {
-      // Existing error codes
       'connection_failed': 'リアルタイム接続に失敗しました',
       'channel_not_found': 'チャンネルが見つかりません',
       'subscription_failed': 'サブスクリプションに失敗しました',
@@ -205,8 +201,6 @@ const Map<String, dynamic> japaneseTranslations = {
       'node_disconnected': 'ノードが切断されました',
       'migration_failed': 'マイグレーションに失敗しました',
       'counter_tracking_error': 'カウンター追跡エラー',
-
-      // Additional official Supabase Realtime error codes
       'ChannelRateLimitReached': '作成できるチャンネル数が制限に達しました',
       'ClientJoinRateLimitReached': 'クライアントの1秒あたりの参加レートがチャンネル制限に達しました',
       'ConnectionInitializing': 'データベースが接続を初期化中です',

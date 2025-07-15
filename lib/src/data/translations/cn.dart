@@ -179,9 +179,9 @@ const Map<String, dynamic> chineseTranslations = {
       'too_many_requests': '请求过多',
       'database_timeout': '数据库超时',
       'internal_server_error': '内部服务器错误',
+      '413': '文件大小超过限制',
     },
     'realtime': {
-      // Existing error codes
       'connection_failed': '实时连接失败',
       'channel_not_found': '频道未找到',
       'subscription_failed': '订阅失败',
@@ -201,8 +201,6 @@ const Map<String, dynamic> chineseTranslations = {
       'node_disconnected': '节点已断开',
       'migration_failed': '迁移失败',
       'counter_tracking_error': '计数器跟踪错误',
-
-      // Additional official Supabase Realtime error codes
       'ChannelRateLimitReached': '您可以创建的频道数量已达到限制',
       'ClientJoinRateLimitReached': '您的客户端每秒加入频道的速率已达到限制',
       'ConnectionInitializing': '数据库正在初始化连接',

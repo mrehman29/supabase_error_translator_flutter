@@ -161,7 +161,6 @@ This is a Flutter package for translating Supabase error codes and messages into
 
 ### Required
 - `flutter`: Flutter SDK
-- `flutter_localizations`: For internationalization support
 - `intl`: For internationalization utilities
 
 ### Dev Dependencies

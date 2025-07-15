@@ -50,12 +50,6 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "flutter_localizations",
-      "rootUri": "file:///Users/rehman/development/flutter/packages/flutter_localizations",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///Users/rehman/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -182,7 +176,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2025-07-14T22:42:16.099035Z",
+  "generated": "2025-07-15T19:34:47.651573Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/rehman/development/flutter",
